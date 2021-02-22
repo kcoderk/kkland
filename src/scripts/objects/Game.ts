@@ -106,7 +106,7 @@ export class Game {
           await new Dialog(
             this.app,
             "石碑",
-            "欢迎来到「kk岛」，这个小岛上虽然什么都没有，但我猜你还是会忍不住在岛上逛个几圈"
+            "欢迎来到「小熊的岛」，这个岛由「哥哥」建成 …… 石碑上好像刻了几个字——— 哥哥爱小熊"
           ).show(this.ui);
         } else if (tilePos.tileX == 28 && tilePos.tileY == 9) {
           const index = await new Dialog(

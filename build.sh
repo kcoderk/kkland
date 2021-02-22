@@ -12,4 +12,4 @@ hugo
 mv public ../dist/resume
 popd
 
-docker build -t kkland:latest .
+docker build -t kkland:lsy .

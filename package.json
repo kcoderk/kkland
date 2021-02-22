@@ -1,0 +1,34 @@
+{
+  "name": "kkland",
+  "version": "0.1.0",
+  "description": "「kk岛」计划",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack",
+    "start": "webpack serve --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kcoderk/kkland.git"
+  },
+  "author": "kcoderk <huangkaikang@gmail.com>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^7.0.0",
+    "cross-env": "^7.0.3",
+    "ts-loader": "^8.0.15",
+    "typescript": "^4.1.3",
+    "webpack": "^5.21.1",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@types/ifvisible": "^1.1.0",
+    "@types/pathfinding": "0.0.4",
+    "ifvisible": "^1.1.0",
+    "path-browserify": "^1.0.1",
+    "pathfinding": "^0.4.18",
+    "pixi-sound": "^3.0.5",
+    "pixi.js": "^5.3.7"
+  }
+}

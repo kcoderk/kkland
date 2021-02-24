@@ -1,5 +1,6 @@
 #!/bin/sh -v
 
+npm install
 rm -rf dist
 npm run build
 
